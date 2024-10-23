@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Calculator UI</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 flex justify-center items-center min-h-screen">
+    <div class="calculator bg-white p-6 rounded-lg shadow-lg">
+      <div class="screen bg-gray-200 rounded-md text-right text-2xl p-4 mb-4">
+        0
+      </div>
+      <div class="grid grid-cols-4 gap-4">
+        <!-- Row 1 -->
+        <button class="btn function bg-gray-300 p-5 rounded-md">C</button>
+        <button class="btn function bg-gray-300 p-5 rounded-md">±</button>
+        <button class="btn function bg-gray-300 p-5 rounded-md">%</button>
+        <button class="btn operator bg-orange-400 text-white p-5 rounded-md">
+          ÷
+        </button>
+
+        <!-- Row 2 -->
+        <button class="btn number bg-gray-100 p-5 rounded-md">7</button>
+        <button class="btn number bg-gray-100 p-5 rounded-md">8</button>
+        <button class="btn number bg-gray-100 p-5 rounded-md">9</button>
+        <button class="btn operator bg-orange-400 text-white p-5 rounded-md">
+          ×
+        </button>
+
+        <!-- Row 3 -->
+        <button class="btn number bg-gray-100 p-5 rounded-md">4</button>
+        <button class="btn number bg-gray-100 p-5 rounded-md">5</button>
+        <button class="btn number bg-gray-100 p-5 rounded-md">6</button>
+        <button class="btn operator bg-orange-400 text-white p-5 rounded-md">
+          -
+        </button>
+
+        <!-- Row 4 -->
+        <button class="btn number bg-gray-100 p-5 rounded-md">1</button>
+        <button class="btn number bg-gray-100 p-5 rounded-md">2</button>
+        <button class="btn number bg-gray-100 p-5 rounded-md">3</button>
+        <button class="btn operator bg-orange-400 text-white p-5 rounded-md">
+          +
+        </button>
+
+        <!-- Row 5 -->
+        <button class="btn number col-span-2 bg-gray-100 p-5 rounded-md">
+          0
+        </button>
+        <button class="btn number bg-gray-100 p-5 rounded-md">.</button>
+        <button class="btn operator bg-cyan-700 text-white p-5 rounded-md">
+          =
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
